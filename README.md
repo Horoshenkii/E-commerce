@@ -28,15 +28,6 @@
 ![Catalog](./screenshots/catalog.png)
 ![Product Page](./screenshots/product.png)
 
-## Project Structure
-
-src/
-components/
-pages/
-context/
-data/
-public/
-
 ## Installation & Running
 
 ```bash
