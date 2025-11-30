@@ -1,0 +1,788 @@
+[
+  {
+    "id": 1,
+    "name": "ASUS ROG Strix GeForce RTX 4090",
+    "category": "computers",
+    "price": 2799.99,
+    "description": "High-end graphics card with outstanding performance, suitable for 4K gaming and heavy rendering tasks.",
+    "image": "/images/Computer.png",
+    "specs": {
+      "memory": "24GB GDDR6X",
+      "clockSpeed": "2610 MHz",
+      "powerConsumption": "450W",
+      "length": "357 mm",
+      "ports": "3x DisplayPort, 2x HDMI"
+    },
+    "tags": ["gpu", "nvidia", "gaming", "performance", "pc", "desktop"]
+  },
+  {
+    "id": 2,
+    "name": "Apple iPhone 15 Pro",
+    "category": "phones-laptops",
+    "price": 1099.99,
+    "description": "Latest iPhone model with advanced A17 Pro chip, titanium body and upgraded cameras.",
+    "image": "/images/Samsung-Galaxy-S25.png",
+    "specs": {
+      "display": "6.1-inch OLED",
+      "storage": "256GB",
+      "camera": "48MP triple-camera",
+      "battery": "3274mAh",
+      "chip": "A17 Pro"
+    },
+    "tags": ["smartphone", "ios", "apple", "mobile", "camera", "tech"]
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy S24 Ultra",
+    "category": "phones-laptops",
+    "price": 1199.99,
+    "description": "Flagship Android smartphone with powerful camera, S Pen support and large AMOLED display.",
+    "image": "/images/Samsung-Galaxy-S25.png",
+    "specs": {
+      "display": "6.8-inch QHD+ AMOLED",
+      "storage": "512GB",
+      "camera": "200MP quad-camera",
+      "battery": "5000mAh",
+      "chip": "Snapdragon 8 Gen 3"
+    },
+    "tags": ["smartphone", "android", "samsung", "mobile", "camera", "flagship"]
+  },
+  {
+    "id": 4,
+    "name": "MacBook Air M3",
+    "category": "phones-laptops",
+    "price": 1399.99,
+    "description": "Lightweight and efficient laptop powered by Apple’s M3 chip, great for everyday productivity.",
+    "image": "/images/Laptop.png",
+    "specs": {
+      "display": "13.6-inch Retina",
+      "processor": "Apple M3",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "batteryLife": "18 hours"
+    },
+    "tags": ["laptop", "apple", "macbook", "productivity", "portable", "m3"]
+  },
+  {
+    "id": 5,
+    "name": "Dell XPS 15",
+    "category": "computers",
+    "price": 1599.99,
+    "description": "Premium Windows laptop with excellent build quality, high-resolution screen and strong performance.",
+    "image": "/images/Computer.png",
+    "specs": {
+      "processor": "Intel Core i7-13700H",
+      "ram": "32GB",
+      "gpu": "NVIDIA RTX 4060",
+      "storage": "1TB SSD",
+      "display": "15.6-inch 4K OLED"
+    },
+    "tags": ["laptop", "windows", "intel", "performance", "gpu", "xps"]
+  },
+  {
+    "id": 6,
+    "name": "Lenovo Legion Tower 7i",
+    "category": "computers",
+    "price": 2199.99,
+    "description": "Powerful desktop PC designed for gaming and content creation with high-end components.",
+    "image": "/images/Computer.png",
+    "specs": {
+      "processor": "Intel i9-13900KF",
+      "gpu": "RTX 4080",
+      "ram": "32GB DDR5",
+      "storage": "2TB NVMe SSD",
+      "cooling": "Liquid cooling"
+    },
+    "tags": ["desktop", "gaming", "lenovo", "pc", "performance", "cooling"]
+  },
+  {
+    "id": 7,
+    "name": "Logitech MX Master 3S",
+    "category": "devices",
+    "price": 99.99,
+    "description": "Advanced wireless mouse with ergonomic design and precision tracking for professionals.",
+    "image": "/images/Chair.png",
+    "specs": {
+      "sensor": "8000 DPI",
+      "connectivity": "Bluetooth / USB Receiver",
+      "batteryLife": "70 days",
+      "buttons": "7",
+      "weight": "141g"
+    },
+    "tags": [
+      "mouse",
+      "logitech",
+      "accessory",
+      "wireless",
+      "office",
+      "bluetooth"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Keychron K8 Pro",
+    "category": "devices",
+    "price": 129.99,
+    "description": "Wireless mechanical keyboard with customizable keys and hot-swappable switches.",
+    "image": "/images/Chair.png",
+    "specs": {
+      "switches": "Gateron Red",
+      "backlight": "RGB",
+      "layout": "TKL",
+      "connectivity": "Bluetooth / USB-C",
+      "frame": "Aluminum"
+    },
+    "tags": [
+      "keyboard",
+      "mechanical",
+      "keychron",
+      "peripheral",
+      "wireless",
+      "rgb"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Samsung QLED Q80C 65\"",
+    "category": "tv",
+    "price": 999.99,
+    "description": "Stunning 4K QLED television with vibrant colors and smart features for modern living rooms.",
+    "image": "/images/TV.png",
+    "specs": {
+      "screenSize": "65 inches",
+      "resolution": "3840x2160",
+      "hdr": "HDR10+",
+      "refreshRate": "120Hz",
+      "smartTV": "Tizen OS"
+    },
+    "tags": ["tv", "qled", "samsung", "smart-tv", "4k", "entertainment"]
+  },
+  {
+    "id": 10,
+    "name": "LG OLED C3 55\"",
+    "category": "tv",
+    "price": 1299.99,
+    "description": "High-end OLED TV delivering perfect blacks and stunning contrast for movie enthusiasts.",
+    "image": "/images/TV.png",
+    "specs": {
+      "screenSize": "55 inches",
+      "resolution": "4K UHD",
+      "panelType": "OLED",
+      "audio": "Dolby Atmos",
+      "gamingFeatures": "G-Sync, FreeSync"
+    },
+    "tags": ["tv", "oled", "lg", "4k", "cinema", "gaming"]
+  },
+  {
+    "id": 11,
+    "name": "Dyson V15 Detect",
+    "category": "for-home",
+    "price": 699.99,
+    "description": "Smart cordless vacuum cleaner with laser dust detection and powerful suction.",
+    "image": "/images/ForHome.png",
+    "specs": {
+      "batteryLife": "60 minutes",
+      "dustCapacity": "0.76L",
+      "power": "230AW",
+      "weight": "3.1 kg",
+      "features": "Laser, LCD screen"
+    },
+    "tags": ["vacuum", "dyson", "home", "cleaning", "cordless", "smart"]
+  },
+  {
+    "id": 12,
+    "name": "Philips Airfryer XXL",
+    "category": "for-home",
+    "price": 249.99,
+    "description": "Large-capacity air fryer with smart sensors for cooking crispy and healthy meals.",
+    "image": "/images/ForHome.png",
+    "specs": {
+      "capacity": "1.4 kg",
+      "power": "2225W",
+      "temperatureControl": "Yes",
+      "basketType": "Removable",
+      "smartCooking": "Fat Removal Tech"
+    },
+    "tags": ["airfryer", "philips", "kitchen", "cooking", "healthy", "home"]
+  },
+  {
+    "id": 13,
+    "name": "Xiaomi Electric Scooter 4 Pro",
+    "category": "transport",
+    "price": 749.99,
+    "description": "Urban electric scooter with extended range, improved power and smartphone app control.",
+    "image": "/images/Transport.png",
+    "specs": {
+      "maxSpeed": "25 km/h",
+      "range": "55 km",
+      "motor": "700W",
+      "battery": "446Wh",
+      "weight": "17.9 kg"
+    },
+    "tags": ["scooter", "xiaomi", "electric", "urban", "mobility", "vehicle"]
+  },
+  {
+    "id": 14,
+    "name": "Segway Ninebot MAX G30LP",
+    "category": "transport",
+    "price": 699.99,
+    "description": "Durable and foldable electric scooter with powerful motor and long-lasting battery.",
+    "image": "/images/Transport.png",
+    "specs": {
+      "topSpeed": "30 km/h",
+      "range": "40 km",
+      "motor": "350W",
+      "battery": "367Wh",
+      "brakes": "Front electric, rear disc"
+    },
+    "tags": ["scooter", "segway", "transport", "mobility", "eco", "foldable"]
+  },
+  {
+    "id": 15,
+    "name": "Sample Product 15",
+    "category": "phones-laptops",
+    "price": 257.5,
+    "description": "Detailed description of Sample Product 15. Reliable performance and useful features.",
+    "image": "/images/Laptop.png",
+    "specs": {
+      "feature": "Special Launch Edition",
+      "compatibility": "Universal",
+      "limitedEdition": "Yes"
+    },
+    "tags": ["tech", "electronics", "new", "limited", "laptop", "mobile"]
+  },
+  {
+    "id": 16,
+    "name": "Sample Product 16",
+    "category": "phones-laptops",
+    "price": 268.0,
+    "description": "Reliable smartphone product offering great performance and features.",
+    "image": "/images/Samsung-Galaxy-S25.png",
+    "specs": {
+      "display": "6.5-inch AMOLED",
+      "battery": "4500mAh",
+      "camera": "Triple-lens",
+      "storage": "128GB",
+      "chip": "Snapdragon 8"
+    },
+    "tags": ["smartphone", "android", "mobile", "electronics", "tech", "modern"]
+  },
+  {
+    "id": 17,
+    "name": "Sample Product 17",
+    "category": "computers",
+    "price": 278.5,
+    "description": "Powerful desktop computer for gaming and work.",
+    "image": "/images/Computer.png",
+    "specs": {
+      "processor": "AMD Ryzen 7",
+      "ram": "16GB",
+      "gpu": "RTX 3070",
+      "storage": "1TB SSD",
+      "os": "Windows 11"
+    },
+    "tags": ["pc", "desktop", "gaming", "ryzen", "performance", "hardware"]
+  },
+  {
+    "id": 18,
+    "name": "Sample Product 18",
+    "category": "devices",
+    "price": 289.0,
+    "description": "Useful smart device compatible with Windows and Mac.",
+    "image": "/images/Chair.png",
+    "specs": {
+      "connectivity": "Bluetooth 5.1",
+      "batteryLife": "30 hours",
+      "type": "Peripheral",
+      "compatibility": "Windows/Mac"
+    },
+    "tags": ["device", "bluetooth", "accessory", "wearable", "gadget", "tech"]
+  },
+  {
+    "id": 19,
+    "name": "Sample Product 19",
+    "category": "tv",
+    "price": 299.5,
+    "description": "Smart TV with modern entertainment features.",
+    "image": "/images/TV.png",
+    "specs": {
+      "screenSize": "50 inches",
+      "resolution": "4K UHD",
+      "smartFeatures": "Yes",
+      "hdr": "Dolby Vision",
+      "ports": "HDMI x3, USB x2"
+    },
+    "tags": ["tv", "4k", "hdr", "smart-tv", "entertainment", "dolby"]
+  },
+  {
+    "id": 20,
+    "name": "Sample Product 20",
+    "category": "for-home",
+    "price": 310.0,
+    "description": "Reliable appliance for home use.",
+    "image": "/images/ForHome.png",
+    "specs": {
+      "power": "1500W",
+      "capacity": "2L",
+      "material": "Stainless steel",
+      "noiseLevel": "Low"
+    },
+    "tags": ["home", "kitchen", "appliance", "comfort", "cooking", "smart-home"]
+  },
+  {
+    "id": 21,
+    "name": "Sample Product 21",
+    "category": "transport",
+    "price": 320.5,
+    "description": "Compact and efficient personal electric transport.",
+    "image": "/images/Transport.png",
+    "specs": {
+      "maxSpeed": "20 km/h",
+      "range": "30 km",
+      "motor": "300W",
+      "battery": "250Wh",
+      "weight": "12.5 kg"
+    },
+    "tags": ["electric", "scooter", "personal", "mobility", "eco", "urban"]
+  },
+  {
+    "id": 22,
+    "name": "Sample Product 22",
+    "category": "computers",
+    "price": 331.0,
+    "description": "Compact and modern desktop system.",
+    "image": "/images/Computer.png",
+    "specs": {
+      "feature": "Special Launch Edition",
+      "compatibility": "Universal",
+      "limitedEdition": "Yes"
+    },
+    "tags": ["desktop", "performance", "new", "hardware", "pc", "tech"]
+  },
+  {
+    "id": 23,
+    "name": "Sample Product 23",
+    "category": "phones-laptops",
+    "price": 341.5,
+    "description": "Latest mid-range smartphone for daily use.",
+    "image": "/images/Laptop.png",
+    "specs": {
+      "display": "6.5-inch AMOLED",
+      "battery": "4500mAh",
+      "camera": "Triple-lens",
+      "storage": "128GB",
+      "chip": "Snapdragon 8"
+    },
+    "tags": ["smartphone", "mobile", "tech", "android", "battery", "camera"]
+  },
+  {
+    "id": 24,
+    "name": "Sample Product 24",
+    "category": "computers",
+    "price": 352.0,
+    "description": "Gaming computer for home and work.",
+    "image": "/images/Computer.png",
+    "specs": {
+      "processor": "AMD Ryzen 7",
+      "ram": "16GB",
+      "gpu": "RTX 3070",
+      "storage": "1TB SSD",
+      "os": "Windows 11"
+    },
+    "tags": ["gaming", "pc", "desktop", "ryzen", "windows", "performance"]
+  },
+  {
+    "id": 25,
+    "name": "Sample Product 25",
+    "category": "devices",
+    "price": 362.5,
+    "description": "Smart gadget for daily use and convenience.",
+    "image": "/images/Chair.png",
+    "specs": {
+      "connectivity": "Bluetooth 5.1",
+      "batteryLife": "30 hours",
+      "type": "Peripheral",
+      "compatibility": "Windows/Mac"
+    },
+    "tags": ["device", "gadget", "bluetooth", "tech", "accessory", "smart"]
+  },
+  {
+    "id": 26,
+    "name": "Sample Product 26",
+    "category": "tv",
+    "price": 373.0,
+    "description": "High-quality television for entertainment.",
+    "image": "/images/TV.png",
+    "specs": {
+      "screenSize": "50 inches",
+      "resolution": "4K UHD",
+      "smartFeatures": "Yes",
+      "hdr": "Dolby Vision",
+      "ports": "HDMI x3, USB x2"
+    },
+    "tags": ["tv", "4k", "entertainment", "hdr", "smart", "dolby"]
+  },
+  {
+    "id": 27,
+    "name": "Sample Product 27",
+    "category": "for-home",
+    "price": 383.5,
+    "description": "Smart home appliance for modern kitchens.",
+    "image": "/images/ForHome.png",
+    "specs": {
+      "power": "1500W",
+      "capacity": "2L",
+      "material": "Stainless steel",
+      "noiseLevel": "Low"
+    },
+    "tags": ["home", "kitchen", "appliance", "comfort", "smart-home", "quiet"]
+  },
+  {
+    "id": 28,
+    "name": "Sample Product 28",
+    "category": "transport",
+    "price": 394.0,
+    "description": "Compact and stylish electric scooter.",
+    "image": "/images/Transport.png",
+    "specs": {
+      "maxSpeed": "20 km/h",
+      "range": "30 km",
+      "motor": "300W",
+      "battery": "250Wh",
+      "weight": "12.5 kg"
+    },
+    "tags": ["transport", "eco", "electric", "scooter", "urban", "mobility"]
+  },
+  {
+    "id": 29,
+    "name": "Sample Product 29",
+    "category": "for-home",
+    "price": 404.5,
+    "description": "Modern household appliance for comfort.",
+    "image": "/images/ForHome.png",
+    "specs": {
+      "feature": "Special Launch Edition",
+      "compatibility": "Universal",
+      "limitedEdition": "Yes"
+    },
+    "tags": ["home", "appliance", "tech", "new", "kitchen", "modern"]
+  },
+  {
+    "id": 30,
+    "name": "Sample Product 30",
+    "category": "phones-laptops",
+    "price": 415.0,
+    "description": "Advanced phone for productivity.",
+    "image": "/images/Samsung-Galaxy-S25.png",
+    "specs": {
+      "display": "6.5-inch AMOLED",
+      "battery": "4500mAh",
+      "camera": "Triple-lens",
+      "storage": "128GB",
+      "chip": "Snapdragon 8"
+    },
+    "tags": ["smartphone", "mobile", "tech", "battery", "android", "modern"]
+  },
+  {
+    "id": 31,
+    "name": "Sample Product 31",
+    "category": "computers",
+    "price": 425.5,
+    "description": "Reliable PC for work and study.",
+    "image": "/images/Computer.png",
+    "specs": {
+      "processor": "AMD Ryzen 7",
+      "ram": "16GB",
+      "gpu": "RTX 3070",
+      "storage": "1TB SSD",
+      "os": "Windows 11"
+    },
+    "tags": ["desktop", "pc", "work", "study", "hardware", "performance"]
+  },
+  {
+    "id": 32,
+    "name": "Sample Product 32",
+    "category": "devices",
+    "price": 436.0,
+    "description": "Wireless gadget for modern users.",
+    "image": "/images/Chair.png",
+    "specs": {
+      "connectivity": "Bluetooth 5.1",
+      "batteryLife": "30 hours",
+      "type": "Peripheral",
+      "compatibility": "Windows/Mac"
+    },
+    "tags": ["device", "wearable", "tech", "bluetooth", "gadget", "modern"]
+  },
+  {
+    "id": 33,
+    "name": "Sample Product 33",
+    "category": "tv",
+    "price": 446.5,
+    "description": "High-definition TV with vivid colors.",
+    "image": "/images/TV.png",
+    "specs": {
+      "screenSize": "50 inches",
+      "resolution": "4K UHD",
+      "smartFeatures": "Yes",
+      "hdr": "Dolby Vision",
+      "ports": "HDMI x3, USB x2"
+    },
+    "tags": ["tv", "4k", "hdr", "entertainment", "smart", "display"]
+  },
+  {
+    "id": 34,
+    "name": "Sample Product 34",
+    "category": "for-home",
+    "price": 457.0,
+    "description": "Efficient and stylish home device.",
+    "image": "/images/ForHome.png",
+    "specs": {
+      "power": "1500W",
+      "capacity": "2L",
+      "material": "Stainless steel",
+      "noiseLevel": "Low"
+    },
+    "tags": ["home", "kitchen", "appliance", "quiet", "smart", "modern"]
+  },
+  {
+    "id": 35,
+    "name": "Sample Product 35",
+    "category": "transport",
+    "price": 467.5,
+    "description": "Portable scooter for urban transport.",
+    "image": "/images/Transport.png",
+    "specs": {
+      "maxSpeed": "20 km/h",
+      "range": "30 km",
+      "motor": "300W",
+      "battery": "250Wh",
+      "weight": "12.5 kg"
+    },
+    "tags": ["transport", "scooter", "electric", "eco", "urban", "mobility"]
+  },
+  {
+    "id": 36,
+    "name": "Sample Product 36",
+    "category": "devices",
+    "price": 478.0,
+    "description": "Modern smart gadget for professionals.",
+    "image": "/images/Chair.png",
+    "specs": {
+      "feature": "Special Launch Edition",
+      "compatibility": "Universal",
+      "limitedEdition": "Yes"
+    },
+    "tags": ["device", "accessory", "smart", "wearable", "bluetooth", "tech"]
+  },
+  {
+    "id": 37,
+    "name": "Sample Product 37",
+    "category": "phones-laptops",
+    "price": 488.5,
+    "description": "Reliable mobile device with long battery life.",
+    "image": "/images/Samsung-Galaxy-S25.png",
+    "specs": {
+      "display": "6.5-inch AMOLED",
+      "battery": "4500mAh",
+      "camera": "Triple-lens",
+      "storage": "128GB",
+      "chip": "Snapdragon 8"
+    },
+    "tags": ["smartphone", "android", "battery", "tech", "modern", "mobile"]
+  },
+  {
+    "id": 38,
+    "name": "Sample Product 38",
+    "category": "computers",
+    "price": 499.0,
+    "description": "Powerful and efficient PC system.",
+    "image": "/images/Computer.png",
+    "specs": {
+      "processor": "AMD Ryzen 7",
+      "ram": "16GB",
+      "gpu": "RTX 3070",
+      "storage": "1TB SSD",
+      "os": "Windows 11"
+    },
+    "tags": ["desktop", "performance", "pc", "windows", "hardware", "gaming"]
+  },
+  {
+    "id": 39,
+    "name": "Sample Product 39",
+    "category": "devices",
+    "price": 509.5,
+    "description": "Smart wireless accessory for daily use.",
+    "image": "/images/Chair.png",
+    "specs": {
+      "connectivity": "Bluetooth 5.1",
+      "batteryLife": "30 hours",
+      "type": "Peripheral",
+      "compatibility": "Windows/Mac"
+    },
+    "tags": ["bluetooth", "device", "accessory", "wireless", "tech", "smart"]
+  },
+  {
+    "id": 40,
+    "name": "Sample Product 40",
+    "category": "tv",
+    "price": 520.0,
+    "description": "Entertainment-focused TV with HDR and 4K.",
+    "image": "/images/TV.png",
+    "specs": {
+      "screenSize": "50 inches",
+      "resolution": "4K UHD",
+      "smartFeatures": "Yes",
+      "hdr": "Dolby Vision",
+      "ports": "HDMI x3, USB x2"
+    },
+    "tags": ["tv", "entertainment", "smart", "display", "4k", "hdr"]
+  },
+  {
+    "id": 41,
+    "name": "Smart TV UltraHD",
+    "category": "tv",
+    "price": 119,
+    "description": "High-definition display for home entertainment.",
+    "image": "/images/TV.png",
+    "specs": {
+      "Resolution": "4K",
+      "HDR": "Yes",
+      "Smart Features": "Yes"
+    },
+    "tags": ["tv", "4k", "smart", "entertainment", "home", "display"]
+  },
+  {
+    "id": 42,
+    "name": "Smart Glasses ViewX",
+    "category": "devices",
+    "price": 312,
+    "description": "Wearable smart device with useful features.",
+    "image": "/images/Chair.png",
+    "specs": {
+      "Battery Life": "7 days",
+      "Connectivity": "Bluetooth 5.0",
+      "Waterproof": "Yes"
+    },
+    "tags": ["wearable", "smart", "glasses", "bluetooth", "tech", "device"]
+  },
+  {
+    "id": 43,
+    "name": "Coffee Maker BrewPro",
+    "category": "for-home",
+    "price": 845,
+    "description": "Smart appliance for home comfort.",
+    "image": "/images/ForHome.png",
+    "specs": {
+      "Power": "1500W",
+      "Control": "App + Manual",
+      "Modes": "3"
+    },
+    "tags": ["coffee", "maker", "kitchen", "smart-home", "appliance", "home"]
+  },
+  {
+    "id": 44,
+    "name": "OLED ScreenFrame",
+    "category": "tv",
+    "price": 651,
+    "description": "High-definition display for home entertainment.",
+    "image": "/images/TV.png",
+    "specs": {
+      "Resolution": "4K",
+      "HDR": "Yes",
+      "Smart Features": "Yes"
+    },
+    "tags": ["oled", "tv", "smart", "entertainment", "4k", "display"]
+  },
+  {
+    "id": 45,
+    "name": "Hoverboard BalanceX",
+    "category": "transport",
+    "price": 817,
+    "description": "Modern transport or tracking device for mobility.",
+    "image": "/images/Transport.png",
+    "specs": {
+      "Speed": "25km/h",
+      "Range": "30km",
+      "Battery": "36V"
+    },
+    "tags": [
+      "hoverboard",
+      "mobility",
+      "transport",
+      "eco",
+      "electric",
+      "balance"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "4K Projector BeamIt",
+    "category": "tv",
+    "price": 1221,
+    "description": "High-definition display for home entertainment.",
+    "image": "/images/TV.png",
+    "specs": {
+      "Resolution": "4K",
+      "HDR": "Yes",
+      "Smart Features": "Yes"
+    },
+    "tags": ["projector", "4k", "display", "entertainment", "smart", "tv"]
+  },
+  {
+    "id": 47,
+    "name": "LED TV VisionMax",
+    "category": "tv",
+    "price": 240,
+    "description": "High-definition display for home entertainment.",
+    "image": "/images/TV.png",
+    "specs": {
+      "Resolution": "4K",
+      "HDR": "Yes",
+      "Smart Features": "Yes"
+    },
+    "tags": ["tv", "led", "4k", "entertainment", "display", "smart"]
+  },
+  {
+    "id": 48,
+    "name": "VR Headset Vision",
+    "category": "devices",
+    "price": 1224,
+    "description": "Wearable smart device with useful features.",
+    "image": "/images/Chair.png",
+    "specs": {
+      "Battery Life": "7 days",
+      "Connectivity": "Bluetooth 5.0",
+      "Waterproof": "Yes"
+    },
+    "tags": ["vr", "headset", "virtual", "tech", "device", "wearable"]
+  },
+  {
+    "id": 49,
+    "name": "Smartwatch FitLife",
+    "category": "devices",
+    "price": 1428,
+    "description": "Wearable smart device with useful features.",
+    "image": "/images/Chair.png",
+    "specs": {
+      "Battery Life": "7 days",
+      "Connectivity": "Bluetooth 5.0",
+      "Waterproof": "Yes"
+    },
+    "tags": ["smartwatch", "wearable", "fitness", "bluetooth", "device", "tech"]
+  },
+  {
+    "id": 50,
+    "name": "TV Box CineHome",
+    "category": "tv",
+    "price": 981,
+    "description": "High-definition display for home entertainment.",
+    "image": "/images/TV.png",
+    "specs": {
+      "Resolution": "4K",
+      "HDR": "Yes",
+      "Smart Features": "Yes"
+    },
+    "tags": ["tv", "box", "media", "entertainment", "4k", "smart"]
+  }
+]
